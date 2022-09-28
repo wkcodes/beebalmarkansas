@@ -12,9 +12,12 @@
 }
 
 html {
-    background: var(--color-bg);
     font-family: var(--main-family);
     min-height: 100%;
+}
+
+nav {
+  list-style-type: none;
 }
 
 #background {
