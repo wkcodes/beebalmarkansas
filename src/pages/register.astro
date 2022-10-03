@@ -1,0 +1,30 @@
+---
+    import Layout from '../components/Layout.astro';
+    import Header from '../components/Header.astro';
+    import Footer from '../components/Footer.astro';
+
+    const page = 'Register'
+
+---
+
+<Layout title={page}>
+    <main>
+        <div id="content">
+            <Header />
+            <h1>{page}</h1>
+            <form name="registration" data-netlify="true">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" class="mb-8"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" class="mb-8"><br>
+                <label for="pronouns">Pronouns:</label>
+                <input type="text" id="pronouns" name="pronouns" class="mb-8"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" class="mb-8"><br>
+                <input type="radio" name="option_one" id="option_one">
+                <button onclick="run()" type="submit">Send</button>
+            </form>
+            <Footer />
+        </div>
+    </main>
+</Layout>
