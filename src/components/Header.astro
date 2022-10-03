@@ -1,6 +1,19 @@
+---
+    const menu = {
+        home: '/',
+        about: '/about',
+        register: '/register'
+    }
+
+    let selected = menu.home
+    console.log(selected)
+---
+
 <main class="my-4 lg:my-12">
-    <h1 class="text-center mb-4">Bee Balm</h1>
-    <nav class="flex gap-x-5">
+    <a href="/">
+        <h1 class="text-center mb-4">Bee Balm</h1>
+    </a>
+    <nav class="flex justify-center gap-x-5">
         <a href="/">
             <li class="text-2xl">Workshop</li>
         </a>

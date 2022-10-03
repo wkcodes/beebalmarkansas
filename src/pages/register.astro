@@ -11,19 +11,31 @@
     <main>
         <div id="content">
             <Header />
-            <h1>{page}</h1>
-            <form name="registration" data-netlify="true">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" class="mb-8"><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" class="mb-8"><br>
-                <label for="pronouns">Pronouns:</label>
-                <input type="text" id="pronouns" name="pronouns" class="mb-8"><br>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" class="mb-8"><br>
-                <input type="radio" name="option_one" id="option_one">
-                <button onclick="run()" type="submit">Send</button>
-            </form>
+            <h1 class="hidden">{page}</h1>
+            <div class="mt-8">
+                <p></p>
+                <form name="registration" data-netlify="true">
+                    <label for="fname">*First name:</label>
+                    <input type="text" id="fname" name="fname" class="mb-8"><br>
+                    <label for="lname">*Last name:</label>
+                    <input type="text" id="lname" name="lname" class="mb-8"><br>
+                    <label for="pronouns">*Pronouns:</label>
+                    <input type="text" id="pronouns" name="pronouns" class="mb-8"><br>
+                    <label for="email">*Email:</label>
+                    <input type="text" id="email" name="email" class="mb-8"><br>
+                    <fieldset class="flex justify-center gap-2 flex-col mb-6 lg:mx-42">
+                        <p>*Select an option from the following:</p>
+                        <input type="radio" name="option" id="option_one" checked>
+                        <label for="option_one">*I agree to pay the $250 fee for this workshop, which includes five
+                            weeks of instruction, a community reading, and chapbook design and printing. </label>
+                        <input type="radio" name="option" id="option_two">
+                        <label for="option_two">I reached out to Julia, and I agree to pay $100 for this workshop, which
+                            includes five weeks of instruction, a community reading, and chapbook design and
+                            printing.</label>
+                    </fieldset>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </div>
             <Footer />
         </div>
     </main>
