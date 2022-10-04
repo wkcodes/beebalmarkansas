@@ -2,29 +2,48 @@
     import Layout from '../components/Layout.astro';
     import Header from '../components/Header.astro';
     import Footer from '../components/Footer.astro';
-
-    const page = 'About'
 ---
 
-<Layout title={page}>
+<Layout title="Bee Balm">
     <main>
-        <div id="content">
+        <div class="mx-4 mb-6 lg:mx-96 lg:my-8 text-center">
             <Header />
-            <h1 class="hidden">{page}</h1>
-            <div class="flex flex-row mx-4 mb-6 lg:mx-96 lg:my-8 text-center">
-                <h2 class="mb-12">About the Instructor</h2>
-                <img src="../public/images/jpm.png">
-                <p>Julia Paganelli Marín is a poet in Fayetteville, Arkansas, with more than six years of teaching
-                    experience. She holds an MFA in Creative Writing from the University of Arkansas and received the
-                    Open
-                    Mouth poetry residency in March 2022. She is a recipient of the Lily Peter Fellowship (2015) and the
-                    runner up for Poets & Writers’ Maureen Egan Award (2018). Her editorial work has included reading
+            <div class="flex flex-col">
+                <h2 class="mb-4">About the Name</h2>
+                <p class="mt-4">In the mid-19th century, quilting bees and barn raisings were ways to bring
+                    people
+                    together
                     and
-                    selection of work for The Arkansas International and Up North Lit.
+                    get the hard
+                    things done. Stitching and sweating with friends and neighbors drew folks closer together.
+                </p>
+                <br>
+                <img class="self-center " src="/images/single_bee_balm.png">
+                <p class="mt-4">
+                    Maybe you remember this too--the bake sales and church bazaars your nana brought you to as a child.
+                    Maybe you
+                    too played Miss Mary Mack and hopscotch in the parking lot while the grown-ups proudly shared their
+                    wares and
+                    begged for Susan's Hershey pie recipe. (Susan never did share it.)
+                </p>
+                <br>
+                <p class="mt-4">
+                    And in some ways, a bee is a solitary creature. Before she returns to the hive to dance directions
+                    to
+                    the other
+                    bees, before she with her sisters fans the nectar thick, before honey fills the careful cavities of
+                    the
+                    hive
+                    with its gold shimmer, a bee ventures out alone on the wind to collect pollen on her legs and face,
+                    to
+                    find
+                    flowers worth her while.
 
-                    In addition to her chapbook, Blush Less (Finishing Line Press, 2015), her work has been published in
-                    The
-                    Journal, Zone 3, Passages North, The Comstock Review, BOAAT Journal and more. </p>
+                    And isn't being together what soothes us, our weathered hearts, our hands? We too go out trying to
+                    find
+                    life's
+                    sweetness. Isn't it good to come together and share what we've made?
+                </p>
             </div>
             <Footer />
         </div>

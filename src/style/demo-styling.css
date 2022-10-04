@@ -12,14 +12,18 @@ nav {
   list-style-type: none;
 }
 
-.submit {
+.button {
   color: whitesmoke;
   border-style: dashed;
   background-color: #21a69a;
   padding: 12px;
   border-radius: 10px;
+  max-width: 400px;
 }
 
+a { 
+  color: purple;
+}
 a:hover {
-  color: #21a69a;
+  color: #a30122;
 }
