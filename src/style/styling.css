@@ -1,26 +1,36 @@
 :root {
   font-family: Averia Serif Libre;
-  text-align:start;
   font-weight: 300;
-  color: #352a2a;
+  color: #FCF8F4;
+  background-color: #AE5032;
 }
 
 nav {
   list-style-type: none;
 }
 
+img {
+  border-width: .2rem;
+  border-style: solid;
+}
+
 .button {
-  color: #FCF8F4;
-  background-color: #CF754E;
+  color: red;
+  background-color: green;
   border-style: dashed;
   padding: 12px;
   border-radius: 10px;
   max-width: 400px;
 }
 
-a { 
-  color: #605D39;
-}
 a:hover {
-  color: #a30122;
+  color: #ae5032;
+}
+
+.headline {
+}
+
+.card_box{
+  align-items: center;
+  gap: 3rem;
 }
