@@ -1,5 +1,5 @@
 ---
-    import Layout from '../components/Layout.astro';
+    import Layout from '../layouts/Layout.astro';
     import Header from '../components/Header.astro';
     import Footer from '../components/Footer.astro';
 
@@ -11,11 +11,12 @@
         <div id="content">
             <Header />
             <h1 class="hidden">{page}</h1>
-            <div class="mx-4 mb-6 lg:mx-96 lg:my-8 text-center">
+            <div class="mx-4 mb-6 lg:my-8 text-center">
                 <h2 class="mb-12">About the Instructor</h2>
                 <div class="flex flex-col lg:flex-row gap-2 place-content-center">
-                    <img class=" lg:max-w-[500px] max-h-[600px] md:h-max self-center mb-6" src="/images/jpm.png">
-                    <div class="self-center lg:ml-12 lg:w-[500px] lg:mb-12 lg:mt-6">
+                    <img class="rounded-md lg:max-w-[500px] max-h-[600px] md:h-max self-center mb-6"
+                        src="/images/jpm.png">
+                    <div class="self-center md:mx-8 lg:w-[500px] lg:mb-12 lg:mt-6">
                         <p>Julia Paganelli Marín is a poet in Fayetteville, Arkansas,
                             with
                             more than six
@@ -51,15 +52,16 @@
                     </div>
                     <br>
                 </div>
-                <div class="flex flex-col">
+                <div class="flex flex-col mt-4 md:mt-12">
                     <h2 class="mb-4">Readings</h2>
-                    <p class="lg:w-[400px] self-center">Open Mouth Reading Series (Fayetteville, AR) July 2022
-                        MFA Thesis Reading (Fayetteville, AR) May 2018
-                        Impossible Language Reading Series (Memphis, TN) April 2017
-                        9 by the Light (Fayetteville, AR) Spring 2016
-                        Nightbird Books (Fayetteville, AR) Fall 2015
-                        Waynesburg University Reading (Waynesburg, PA) Fall 2015
-                    </p>
+                    <ul class="lg:max-w-[700px] self-center">
+                        <li>Open Mouth Reading Series (Fayetteville, AR) July 2022</li>
+                        <li>MFA Thesis Reading (Fayetteville, AR) May 2018</li>
+                        <li>Impossible Language Reading Series (Memphis, TN) April 2017</li>
+                        <li>9 by the Light (Fayetteville, AR) Spring 2016</li>
+                        <li>Nightbird Books (Fayetteville, AR) Fall 2015</li>
+                        <li>Waynesburg University Reading (Waynesburg, PA) Fall 2015</li>
+                    </ul>
                 </div>
             </div>
             <Footer />

@@ -1,0 +1,26 @@
+:root {
+  font-family: Averia Serif Libre;
+  text-align:start;
+  font-weight: 300;
+  color: #352a2a;
+}
+
+nav {
+  list-style-type: none;
+}
+
+.button {
+  color: #FCF8F4;
+  background-color: #CF754E;
+  border-style: dashed;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+a { 
+  color: #605D39;
+}
+a:hover {
+  color: #a30122;
+}
