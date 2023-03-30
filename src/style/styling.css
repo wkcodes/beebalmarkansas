@@ -1,8 +1,13 @@
 :root {
   font-family: Averia Serif Libre;
   font-weight: 300;
+  font-size: 16;
   color: #FCF8F4;
   background-color: #AE5032;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 nav {
@@ -12,6 +17,7 @@ nav {
 img {
   border-width: .2rem;
   border-style: solid;
+  border-color: #AAA671;
 }
 
 
@@ -43,7 +49,7 @@ and (min-device-width : 800px){
 }
 
 a:hover {
-  color: #ae5032;
+  color: #AAA671;
 }
 
 .headline {
