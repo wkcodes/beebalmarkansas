@@ -6,6 +6,13 @@
   background-color: #AE5032;
 }
 
+@media screen 
+and (min-device-width : 768px){
+  .mobile-only-logo {
+    font-size: 3rem;
+  }
+}
+
 h2 {
   font-size: 2rem;
 }
