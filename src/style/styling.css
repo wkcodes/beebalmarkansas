@@ -7,7 +7,14 @@
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+@media screen 
+and (min-device-width : 768px){
+  .h2 {
+    font-size: 3rem;
+  }
 }
 
 nav {
