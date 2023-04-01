@@ -6,12 +6,42 @@
   background-color: #AE5032;
 }
 
+
+
 @media screen 
 and (min-device-width : 768px){
   .mobile-only-logo {
     font-size: 3rem;
   }
 }
+
+.big-only-logo{
+  font-size: 3rem;
+}
+
+@media screen 
+and (max-device-width: 640px){
+  .big-only-logo {
+    display: none;
+  }
+}
+
+.small-only-logo{
+  border: none;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  overflow: visible;
+}
+
+@media screen 
+and (min-device-width : 640px){
+  .small-only-logo {
+    display: none;
+  }
+}
+
+
 
 h2 {
   font-size: 2rem;
