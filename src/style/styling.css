@@ -16,6 +16,20 @@ form {
   border: yellow;
   border-style: dotted;
   border-width: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.newsletter_form {
+  color: yellow;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen 
@@ -81,6 +95,9 @@ and (min-device-width : 800px){
 }
 
 .button {
+  border: #AAA671;
+  border-width: 2px;
+  border-style: dashed;
   color: black;
   background-color: yellow;
   border-style: dashed;
@@ -89,20 +106,13 @@ and (min-device-width : 800px){
   max-width: 400px;
 }
 
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 2rem;
-  margin-bottom: 4rem;
-}
-
 input {
   background-color: yellow;
   color: black;
+  border-style: dashed;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 400px;
 }
 
 a:hover {
