@@ -1,3 +1,5 @@
+/* make it so the root falls back to something more neutral, setup a class for the headers and whatever needs Monarcha */
+
 :root {
   font-family: Averia Serif Libre;
   font-weight: 300;
@@ -6,7 +8,15 @@
   background-color: #AE5032;
 }
 
+p {
+  font-family: poppins;
+}
 
+form {
+  border: yellow;
+  border-style: dotted;
+  border-width: 5px;
+}
 
 @media screen 
 and (min-device-width : 768px){
@@ -41,8 +51,6 @@ and (min-device-width : 640px){
   }
 }
 
-
-
 h2 {
   font-size: 2rem;
 }
@@ -56,11 +64,6 @@ and (min-device-width : 768px){
 
 nav {
   list-style-type: none;
-}
-
-
-.painting_boxes_wrapper {
-
 }
 
 @media screen 
@@ -78,19 +81,32 @@ and (min-device-width : 800px){
 }
 
 .button {
-  color: red;
-  background-color: green;
+  color: black;
+  background-color: yellow;
   border-style: dashed;
   padding: 12px;
   border-radius: 10px;
   max-width: 400px;
 }
 
-a:hover {
-  color: #AAA671;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-bottom: 4rem;
 }
 
-.headline {
+input {
+  background-color: yellow;
+  color: black;
+}
+
+a:hover {
+  color: #AAA671;
 }
 
 .card_box{
