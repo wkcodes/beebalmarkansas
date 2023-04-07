@@ -1,7 +1,10 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+  import Layout from '../layouts/Layout.astro';
+  import Header from '../components/Header.astro';
+  import Footer from '../components/Footer.astro';
+  import SignUp from '../components/SignUp.astro';
+
+  import "@fontsource/poppins"
 ---
 
 <head>
@@ -75,9 +78,7 @@ import Footer from '../components/Footer.astro';
   <main>
     <div id='header_wrapper' class='mx-4 mb-6 xl:mx-72 lg:my-8'>
       <Header />
-      <div
-        class='flex flex-col md:flex-row-reverse card_box space-around mb-2 lg:mb-12 mt-4 lg:mt-12 mx-10'
-      >
+      <div class='flex flex-col md:flex-row-reverse card_box space-around mb-2 lg:mb-12 mt-4 lg:mt-12 mx-10'>
         <div>
           <h2 class='mb-2 lg:mb-5'>
             Sometimes people ask what poetry is good for.
@@ -91,14 +92,10 @@ import Footer from '../components/Footer.astro';
             unity.
           </p>
         </div>
-        <img
-          src='/images/jerusalem_artichoke_flowers_1963.10.181 (1).jpg'
-          class='-order-2 lg:-order-first painting_boxes rounded-md md:w-1/2 md:h-1/2 self-center'
-        />
+        <img src='/images/jerusalem_artichoke_flowers_1963.10.181 (1).jpg'
+          class='-order-2 lg:-order-first painting_boxes rounded-md md:w-1/2 md:h-1/2 self-center' />
       </div>
-      <div
-        class='flex flex-col md:flex-row card_box space-around mb-2 mt-8 mx-10 lg:mb-12'
-      >
+      <div class='flex flex-col md:flex-row card_box space-around mb-2 mt-8 mx-10 lg:mb-12'>
         <div>
           <h2 class='headline mb-2 lg:mb-5'>
             Bee Balm Arkansas is a community writing experience in Fayetteville,
@@ -114,15 +111,11 @@ import Footer from '../components/Footer.astro';
             events.
           </p>
         </div>
-        <img
-          src='/images/woman_seated_under_the_willows_1963.10.178 (1).jpg'
-          class='-order-2 lg:-order-first painting_boxes rounded-md md:w-1/2 md:h-1/2 self-center'
-        />
+        <img src='/images/woman_seated_under_the_willows_1963.10.178 (1).jpg'
+          class='-order-2 lg:-order-first painting_boxes rounded-md md:w-1/2 md:h-1/2 self-center' />
       </div>
 
-      <div
-        class='flex flex-col md:flex-row-reverse card_box space-around mb-16 lg:mb-18 mt-8 mx-10'
-      >
+      <div class='flex flex-col md:flex-row-reverse card_box space-around mb-16 lg:mb-18 mt-8 mx-10'>
         <div>
           <h2 class='headline mb-2 lg:mb-5'>Julia Paganelli Marín</h2>
           <p class='mb-2'>
@@ -132,18 +125,14 @@ import Footer from '../components/Footer.astro';
           </p>
           <p>
             You can contact Julia by emailing her at
-            <a href='mailto:julia@beebalmarkansas.com'
-              >julia@beebalmarkansas.com</a
-            >.
+            <a href='mailto:julia@beebalmarkansas.com'>julia@beebalmarkansas.com</a>.
           </p>
         </div>
 
-        <img
-          src='/images/JPM.jpeg'
-          class='-order-2 lg:-order-first painting_boxes rounded-md self-center lg:justify-start'
-        />
+        <img src='/images/JPM.jpeg'
+          class='-order-2 lg:-order-first painting_boxes rounded-md self-center lg:justify-start' />
       </div>
-
+      <SignUp />
       <Footer />
     </div>
   </main>
